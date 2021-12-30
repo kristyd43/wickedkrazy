@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Inconsolata:wght@200;400&family=Lobster+Two&family=Patrick+Hand&family=Raleway:ital,wght@1,200&family=Shizuru&family=Source+Code+Pro:wght@300&family=Tillana&display=swap");
+
+html {
+  background-color: #d9ffaa;
+}
+
+.AboutUs {
+  display: flex;
+  justify-content: center;
+  font-family: "Source Code Pro", monospace;
+}
+
+#logo {
+  height: 5cm;
+  position: absolute;
+  margin-left: 15%;
+}
+
+#product-list {
+  display: flex;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 30% 30%;
+  column-gap: 50px;
+  row-gap: 50px;
+  padding-bottom: 5%;
+}
+
+#about-container {
+  margin: 3% 0% 5% 0%;
+  border-bottom: solid black;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}

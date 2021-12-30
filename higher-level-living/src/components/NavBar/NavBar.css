@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Lobster+Two&family=Patrick+Hand&family=Raleway:ital,wght@1,200&family=Shizuru&family=Tillana&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Inconsolata:wght@400&family=Lobster+Two&family=Patrick+Hand&family=Raleway:ital,wght@1,400&family=Shizuru&family=Tillana&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Inconsolata:wght@200;400&family=Lobster+Two&family=Patrick+Hand&family=Raleway:ital,wght@1,200&family=Shizuru&family=Source+Code+Pro:wght@300&family=Tillana&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Inconsolata:wght@200;400&family=Lobster+Two&family=Patrick+Hand&family=Raleway:ital,wght@1,200&family=Shizuru&family=Source+Code+Pro:wght@300&family=Tillana&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=Inconsolata:wght@200;400&family=Lobster+Two&family=Mea+Culpa&family=Patrick+Hand&family=Raleway:ital,wght@1,200&family=Shizuru&family=Source+Code+Pro:wght@300&family=Tillana&display=swap");
+
+#header-image {
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+  object-fit: cover;
+  background-image: url(../Images/oils.jpg);
+  background-position: bottom center;
+  border-radius: 2mm;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 1%;
+}
+
+#small-logo {
+  height: 2cm;
+}
+
+#title {
+  font-size: 2cm;
+  display: flex;
+  justify-content: center;
+  font-family: "Mea Culpa", cursive;
+  margin-bottom: 5%;
+  padding-top: 1cm;
+}
+
+.navbutt {
+  background-color: #d9ffaa;
+  border: none;
+  margin-top: 2%;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 800;
+  padding-left: 5%;
+  border-left: solid black;
+  padding-right: 5%;
+  border-right: solid black;
+}
+
+.navbutt:hover {
+  background: rgb(147, 255, 132);
+  background: radial-gradient(
+    circle,
+    rgba(147, 255, 132, 1) 0%,
+    rgba(45, 215, 31, 1) 100%
+  );
+  color: maroon;
+}
